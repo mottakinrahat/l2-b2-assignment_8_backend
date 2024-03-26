@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://next-assignment8-frontend.vercel.app",
     credentials: true,
   })
 );
